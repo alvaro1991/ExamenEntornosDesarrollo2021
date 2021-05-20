@@ -1,4 +1,4 @@
-public class Usuario {
+public class Restaurante {
 
     private String nombre;
     private String descripcion;
