@@ -1,10 +1,10 @@
-public class Restaurante {
+public class Menu {
 
     private String nombre;
     private String descripcion;
-    private String tipo;
+    private String foto;
     private String direccion;
-    private int horario;
+    private boolean disponible;
 
     public String getNombre() {
         return nombre;
@@ -22,12 +22,12 @@ public class Restaurante {
         this.descripcion = descripcion;
     }
 
-    public String getTipo() {
-        return tipo;
+    public String getFoto() {
+        return foto;
     }
 
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
+    public void setFoto(String foto) {
+        this.foto = foto;
     }
 
     public String getDireccion() {
@@ -38,11 +38,11 @@ public class Restaurante {
         this.direccion = direccion;
     }
 
-    public int getHorario() {
-        return horario;
+    public boolean isDisponible() {
+        return disponible;
     }
 
-    public void setHorario(int horario) {
-        this.horario = horario;
+    public void setDisponible(boolean disponible) {
+        this.disponible = disponible;
     }
 }
